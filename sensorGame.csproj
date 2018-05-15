@@ -102,7 +102,10 @@
     <Compile Include="Assets\PopupAsylum\PAProximity\PAProximity.cs" />
     <Compile Include="Assets\Script\BulletScript.cs" />
     <Compile Include="Assets\Script\Compass.cs" />
+    <Compile Include="Assets\Script\Enemy.cs" />
     <Compile Include="Assets\Script\MainSensor.cs" />
+    <Compile Include="Assets\Script\Score.cs" />
+    <Compile Include="Assets\Script\SpawnerManager.cs" />
     <Compile Include="Assets\Script\TestSensor.cs" />
   </ItemGroup>
   <ItemGroup>

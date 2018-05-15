@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 11125
+  controlID: 164
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 11205
+  controlID: 64
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 11126
+  controlID: 165
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -284,7 +284,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 192}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 11171
+  controlID: 86
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -380,8 +380,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
+    m_HSlider: 1
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
@@ -393,7 +393,7 @@ MonoBehaviour:
       y: 17
       width: 732
       height: 308
-    m_Scale: {x: 0.42777777, y: 0.42777777}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 366, y: 154}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -401,12 +401,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -855.5844
-      y: -360
-      width: 1711.1688
-      height: 720
+      x: -366
+      y: -154
+      width: 732
+      height: 308
     m_MinimalGUI: 1
-  m_defaultScale: 0.42777777
+  m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 732, y: 325}
@@ -440,14 +440,14 @@ MonoBehaviour:
     width: 732
     height: 268
   m_SceneLighting: 0
-  lastFramingTime: 17993.84757906659
+  lastFramingTime: 1690.9729129930388
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.9660263, y: 7.2823124, z: 11.54184}
+    m_Target: {x: 0, y: 0.99300003, z: -2.9}
     speed: 2
-    m_Value: {x: -3.9660263, y: 7.2823124, z: 11.54184}
+    m_Value: {x: 0, y: 0.99300003, z: -2.9}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -470,13 +470,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.078379415, y: 0.7518386, z: -0.0908932, w: -0.6483316}
+    m_Target: {x: 0, y: 1, z: 0, w: 0}
     speed: 2
-    m_Value: {x: -0.078379415, y: 0.7518386, z: -0.0908932, w: -0.6483316}
+    m_Value: {x: 0, y: 1, z: 0, w: 0}
   m_Size:
-    m_Target: 43.199852
+    m_Target: 4.0416584
     speed: 2
-    m_Value: 43.199852
+    m_Value: 4.0416584
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -586,18 +586,18 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 864ff6ff7a50f6ff9651f6ffa056f6ff5857f6ff7458f6ffd05ff9ff8a60f9ffa661f9ff88a8f9ff40a9f9ff6caaf9ff6cb3f9ff16b4f9ff32b5f9fff456fbffd45bfbff7c88fdff6c89fdff9a8afdffc4e5feff6ee6feff98e7feffbc99ffff949affffbe9bffffc8fbffff00000000f8270000fc2d00003e2e00005a2e00006a2e0000c22e00006c31000076310000ae310000ca310000f2310000383700004237000096370000be37000020510000
+    m_ExpandedIDs: 3247feffe847feff0449feff7e07ffffc8fbffff00000000e6280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Sphere
-      m_OriginalName: Sphere
+      m_Name: Text
+      m_OriginalName: Text
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -457686
+      m_UserData: -64362
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -646,19 +646,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Script
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Script
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\GT\SEMESTER 6\PRAKTIKUM PIRANTI 1\MobileSensor\sensorGame
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1}
-    m_SelectedIDs: 5a250000
-    m_LastClickedID: 9562
-    m_ExpandedIDs: 000000005a250000ce250000262600002a26000074260000e42600004c27000076290000764200008042000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 17}
+    m_SelectedIDs: bc260000
+    m_LastClickedID: 9916
+    m_ExpandedIDs: 0000000064250000c8250000f62500005e2600006026000068260000c4260000482700006a270000e427000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -686,7 +686,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005a250000ce250000262600002a26000074260000e42600004c27000076290000764200008042000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000064250000c8250000f62500005e2600006026000068260000c4260000482700006a270000e4270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
